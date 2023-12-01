@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Layout.module.css";
+import styles from "@/styles/Layout.module.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Showcase from "./Showcase";
@@ -23,7 +23,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "Manga | Find the hottest manga",
+  title: "Manga | Find the best manga",
   keywords: "manga",
   description: "you can find and rent your favourite manga!",
 };
